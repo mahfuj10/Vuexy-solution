@@ -1,0 +1,59 @@
+/*================================================================================
+	Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+	Version: 2.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+
+ //  ........... Messageing
+
+.chat-page {
+	width: 100%;
+  }
+  
+  .clear-btn{
+	border-radius: 0px;
+	background-color: #3498db;
+	border: none;
+	padding: 5px 10px;
+	margin-bottom: 10px;
+  }
+  
+  .chat-container {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	height: 85vh;
+  }
+  
+  .chat-bubble {
+	padding: 10px;
+	margin: 10px;
+	border-radius: 5px;
+	max-width: 70%;
+	word-wrap: break-word;
+  }
+  
+  .agent {
+	background-color: #3498db;
+	align-self: flex-end;
+	color: #fff;
+  }
+  
+  .customer {
+	background-color: #e74c3c;
+	align-self: flex-start;
+	color: #fff;
+  }
+  
+  .message_time{
+	display: block;
+	float: right;
+	margin-top: 18px;
+  }
